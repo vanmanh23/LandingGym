@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarShortcut, MenubarTrigger } from "./ui/menubar";
 import { AlignJustify, ChevronDown, ChevronRight } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
+import { Link } from '../router'
 
 export default function Navigation() {
   const logo =
@@ -23,7 +24,7 @@ export default function Navigation() {
     },
     {
       title: "our services",
-      url: "#",
+      url: "ourservice",
       option: [
         {
           title: "nutritionist services",
@@ -33,27 +34,27 @@ export default function Navigation() {
     },
     {
       title: "gallery",
-      url: "#",
+      url: "gallery",
       option: [],
     },
     {
       title: "Culture & Events",
-      url: "#",
+      url: "cultureEvents",
       option: [],
     },
     {
       title: "class schedule",
-      url: "#",
+      url: "classschedule",
       option: [],
     },
     {
       title: "join our gym",
-      url: "#",
+      url: "joinOurGym",
       option: [],
     },
     {
       title: "contact us",
-      url: "#",
+      url: "contactus",
       option: [],
     },
     {
@@ -79,15 +80,15 @@ export default function Navigation() {
           <AlignJustify className="font-bold text-xl cursor-pointer" onClick={toogleHandler}/>
       </div>
       <div className="md:w-24 w-full items-center flex justify-center ">
-        <img src={logo} alt="logo" className="w-24"/>
+        <Link to={"/"}><img src={logo} alt="logo" className="w-24"/></Link>
       </div>
       <div className="md:flex hidden">
         <ul className="flex">
         {main_menu.map((item, index) => (
-            <li key={index} >
+            <Link to={item.url} key={index}>
               <Menubar className="border-none bg-transparent">
                 <MenubarMenu>
-                  <MenubarTrigger className="uppercase text-md">{item.title} <MenubarShortcut className="">{index === 0 ? <ChevronRight /> : ""}</MenubarShortcut></MenubarTrigger>
+                  <MenubarTrigger className="uppercase text-md cursor-pointer">{item.title} <MenubarShortcut className="">{index === 0 ? <ChevronRight /> : ""}</MenubarShortcut></MenubarTrigger>
                   <MenubarContent className="border-none">
                     {item.option.map(section => 
                       <MenubarItem key={section.title} className="uppercase bg-black/75 text-white border-none text-xs"><p className="opacity-75 ">{section.title}</p></MenubarItem>
@@ -95,7 +96,7 @@ export default function Navigation() {
                   </MenubarContent>
                 </MenubarMenu>
               </Menubar>
-            </li>
+            </Link>
         ))}
         </ul>
 

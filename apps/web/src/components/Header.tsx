@@ -1,4 +1,3 @@
-import Navigation from './Navigation'
 import { Button } from './ui/button'
 import backgroundimage from '../assets/background.png'
 
@@ -6,9 +5,6 @@ export default function Header() {
   const videosrc = "https://www.sofitgympooler.com/wp-content/uploads/2022/08/Tour-2022.mp4"
   return (
     <div className="w-full h-screen relative ">
-        <div className='h-fit'>
-          <Navigation />
-        </div>
         <div className='md:absolute top-0 left-0 w-full h-full'>
           <div className='hidden md:block h-5/6'>
           <video autoPlay loop muted className='w-full h-full object-cover'>

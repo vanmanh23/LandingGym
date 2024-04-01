@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "deploy": "vercel",
     "dev": "tsx watch src/index.ts"
   },
   "dependencies": {
@@ -8,6 +9,7 @@
   },
   "devDependencies": {
     "@types/node": "^20.11.17",
+    "prisma": "^5.11.0",
     "tsx": "^3.12.2"
   }
 }
