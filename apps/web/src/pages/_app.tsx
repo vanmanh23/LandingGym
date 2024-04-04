@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Navigation from "@/components/Navigation";
 import { Outlet } from "react-router-dom";
 
@@ -8,6 +9,9 @@ export default function Layout(){
     <div className="bg-transparent"><Navigation /></div>
     <div>
         <Outlet></Outlet>
+    </div>
+    <div className="w-full mt-10">
+      <Footer />
     </div>
     </div>
   )

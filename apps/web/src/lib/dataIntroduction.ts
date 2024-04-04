@@ -1,6 +1,6 @@
-import accessintroduction from '../assets/accessIntrol.png'
-import equipment from '../assets/equipmentIntrol.png'
-import memberreward from '../assets/memberrewards.png'
+import accessintroduction from '../assets/images/accessIntrol.png'
+import equipment from '../assets/images/equipmentIntrol.png'
+import memberreward from '../assets/images/memberrewards.png'
 
 export const dataIntroduction = [
     {

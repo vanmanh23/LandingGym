@@ -11,6 +11,7 @@ import {
   eachWeekOfInterval,
   addDays,
 } from "date-fns";
+import { Button } from "../ui/button";
 
 export default function Schedule() {
   const year = new Date().getFullYear();
@@ -138,6 +139,11 @@ export default function Schedule() {
         ) : (
           <ScheduleBook isBooking={false} />
         )}
+      </div>
+      <div>
+        <Button variant={"default"} className="uppercase font-semibold mt-5 ">
+          View full schedule
+        </Button>
       </div>
     </div>
   );

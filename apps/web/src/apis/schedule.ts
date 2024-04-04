@@ -5,6 +5,7 @@ export const scheduleData = [
         timefrom: '7:00 AM',
         timeTo: '8:00 AM',
         description: 'Hi Tense Functional Fitness',
+        introduction: 'TRX Suspension Training is a system in which you use your own bodyweight, plus gravity, to perform a wide range of exercises to get results, FAST! You will develop strength, balance, flexibility, and core stability all in one intense workout. have been instructing TRX for 4 years, and love coaching because I’m able to share with others the tools and teachings that i have found so transformational in my own life. With every class/format is a new journey, and with that journey I will bring you 100% dedication, passion,great music, positivity, and a new challenge. My goal is to make you feel motivated, confident, proud, and strong. I really do believe TRX workouts are for everyone, no matter your fitness level. I also hold an AAAI Indoor Cycling Certification and have taught many years of indoor cycling in Pennsylvania before moving here to Savannah last year. But when I’m not in the gym I’m usually hanging out at Forsyth Park with my husband and dog! :Chelsea Gagliano',
     },
     {
         nameuser: 'Greg Buechner',
@@ -12,6 +13,7 @@ export const scheduleData = [
         timefrom: '9:00 AM',
         timeTo: '10:00 AM',
         description: 'Hi Tense Functional Fitness',
+        introduction: 'TRX Suspension Training is a system in which you use your own bodyweight, plus gravity, to perform a wide range of exercises to get results, FAST! You will develop strength, balance, flexibility, and core stability all in one intense workout. have been instructing TRX for 4 years, and love coaching because I’m able to share with others the tools and teachings that i have found so transformational in my own life. With every class/format is a new journey, and with that journey I will bring you 100% dedication, passion,great music, positivity, and a new challenge. My goal is to make you feel motivated, confident, proud, and strong. I really do believe TRX workouts are for everyone, no matter your fitness level. I also hold an AAAI Indoor Cycling Certification and have taught many years of indoor cycling in Pennsylvania before moving here to Savannah last year. But when I’m not in the gym I’m usually hanging out at Forsyth Park with my husband and dog! :Chelsea Gagliano',
     },
     {
         nameuser: 'Chelsea Gagliano',
@@ -19,6 +21,7 @@ export const scheduleData = [
         timefrom: '11:00 AM',
         timeTo: '12:00 PM',
         description: 'Hi Tense Functional Fitness',
+        introduction: 'TRX Suspension Training is a system in which you use your own bodyweight, plus gravity, to perform a wide range of exercises to get results, FAST! You will develop strength, balance, flexibility, and core stability all in one intense workout. have been instructing TRX for 4 years, and love coaching because I’m able to share with others the tools and teachings that i have found so transformational in my own life. With every class/format is a new journey, and with that journey I will bring you 100% dedication, passion,great music, positivity, and a new challenge. My goal is to make you feel motivated, confident, proud, and strong. I really do believe TRX workouts are for everyone, no matter your fitness level. I also hold an AAAI Indoor Cycling Certification and have taught many years of indoor cycling in Pennsylvania before moving here to Savannah last year. But when I’m not in the gym I’m usually hanging out at Forsyth Park with my husband and dog! :Chelsea Gagliano',
     },
     {
         nameuser: 'Gagliano',
@@ -26,6 +29,7 @@ export const scheduleData = [
         timefrom: '2:00 PM',
         timeTo: '3:00 PM',
         description: 'Hi Tense Functional Fitness',
+        introduction: 'TRX Suspension Training is a system in which you use your own bodyweight, plus gravity, to perform a wide range of exercises to get results, FAST! You will develop strength, balance, flexibility, and core stability all in one intense workout. have been instructing TRX for 4 years, and love coaching because I’m able to share with others the tools and teachings that i have found so transformational in my own life. With every class/format is a new journey, and with that journey I will bring you 100% dedication, passion,great music, positivity, and a new challenge. My goal is to make you feel motivated, confident, proud, and strong. I really do believe TRX workouts are for everyone, no matter your fitness level. I also hold an AAAI Indoor Cycling Certification and have taught many years of indoor cycling in Pennsylvania before moving here to Savannah last year. But when I’m not in the gym I’m usually hanging out at Forsyth Park with my husband and dog! :Chelsea Gagliano',
     },
     {
         nameuser: 'Gagliano',
@@ -33,6 +37,7 @@ export const scheduleData = [
         timefrom: '4:00 PM',
         timeTo: '5:00 PM',
         description: 'Hi Tense Functional Fitness',
+        introduction: 'TRX Suspension Training is a system in which you use your own bodyweight, plus gravity, to perform a wide range of exercises to get results, FAST! You will develop strength, balance, flexibility, and core stability all in one intense workout. have been instructing TRX for 4 years, and love coaching because I’m able to share with others the tools and teachings that i have found so transformational in my own life. With every class/format is a new journey, and with that journey I will bring you 100% dedication, passion,great music, positivity, and a new challenge. My goal is to make you feel motivated, confident, proud, and strong. I really do believe TRX workouts are for everyone, no matter your fitness level. I also hold an AAAI Indoor Cycling Certification and have taught many years of indoor cycling in Pennsylvania before moving here to Savannah last year. But when I’m not in the gym I’m usually hanging out at Forsyth Park with my husband and dog! :Chelsea Gagliano',
     },
     {
         nameuser: 'Gagliano',
@@ -40,5 +45,6 @@ export const scheduleData = [
         timefrom: '6:00 PM',
         timeTo: '7:00 PM',
         description: 'Hi Tense Functional Fitness',
+        introduction: 'TRX Suspension Training is a system in which you use your own bodyweight, plus gravity, to perform a wide range of exercises to get results, FAST! You will develop strength, balance, flexibility, and core stability all in one intense workout. have been instructing TRX for 4 years, and love coaching because I’m able to share with others the tools and teachings that i have found so transformational in my own life. With every class/format is a new journey, and with that journey I will bring you 100% dedication, passion,great music, positivity, and a new challenge. My goal is to make you feel motivated, confident, proud, and strong. I really do believe TRX workouts are for everyone, no matter your fitness level. I also hold an AAAI Indoor Cycling Certification and have taught many years of indoor cycling in Pennsylvania before moving here to Savannah last year. But when I’m not in the gym I’m usually hanging out at Forsyth Park with my husband and dog! :Chelsea Gagliano',
     }
 ]

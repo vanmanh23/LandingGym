@@ -1,5 +1,5 @@
 import { Button } from './ui/button'
-import backgroundimage from '../assets/background.png'
+import backgroundimage from '../assets/images/background.png'
 
 export default function Header() {
   const videosrc = "https://www.sofitgympooler.com/wp-content/uploads/2022/08/Tour-2022.mp4"
