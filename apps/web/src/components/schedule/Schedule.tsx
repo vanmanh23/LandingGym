@@ -1,8 +1,4 @@
 import { Filter } from "lucide-react";
-import SignIn from "../SignIn";
-import FullCalendar from "../FullCalendar";
-import ScheduleBook from "./ScheduleBook";
-import { scheduleData } from "@/apis/schedule";
 import React from "react";
 import {
   startOfMonth,
@@ -11,7 +7,13 @@ import {
   eachWeekOfInterval,
   addDays,
 } from "date-fns";
+
+import SignIn from "../SignIn";
+import FullCalendar from "../FullCalendar";
+import ScheduleBook from "./ScheduleBook";
+import { scheduleData } from "@/apis/schedule";
 import { Button } from "../ui/button";
+import StPattysDaySoFitGym from "@/assets/images/schedule/StPattysDaySoFitGym.png";
 
 export default function Schedule() {
   const year = new Date().getFullYear();
@@ -43,8 +45,6 @@ export default function Schedule() {
       return false;
     }
   };
-  //
-  console.log("date", date?.getDate());
 
   return (
     <div className="flex flex-col w-5/6 md:w-1/2 m-auto justify-center text-center">
@@ -105,7 +105,8 @@ export default function Schedule() {
                                   format(addDays(day, index), "d"),
                                   10
                                 ) &&
-                                currentDate.getMonth() <= addDays(day, index).getMonth()
+                              currentDate.getMonth() <=
+                                addDays(day, index).getMonth()
                                 ? "text-black pointer-events:auto cursor-pointer z-40}"
                                 : "text-gray-400 pointer-events:none cursor-not-allowed  z-40"
                             }`}
@@ -144,6 +145,26 @@ export default function Schedule() {
         <Button variant={"default"} className="uppercase font-semibold mt-5 ">
           View full schedule
         </Button>
+      </div>
+      <div>
+        <div className="mt-5">
+          <div className="text-fourth uppercase font-bold md:w-full  m-auto text-2xl md:text-4xl flex  relative justify-center z-30">
+            <span className="inline-block mr-3 after:content-[''] after:block after:relative after:-top-4  after:h-4  after:-z-10 after:w-full after:bg-gradient-to-r after:from-thirdary after:to-secondary">
+              new
+            </span>
+            <p >this month</p>
+          </div>
+        </div>
+        <div>
+          <img src={StPattysDaySoFitGym} alt="StPattysDaySoFitGym" />
+        </div>
+        <div>
+          <Button variant={"default"} className="uppercase font-semibold mt-5">
+            <a href="https://clients.mindbodyonline.com/ASP/main_shop.asp?studioid=253104&tg=&vt=&lvl=&stype=43&view=&trn=0&page=&catid=&prodid=100330&date=4%2f6%2f2024&classid=0&prodGroupId=&sSU=&optForwardingLink=&qParam=&justloggedin=&nLgIn=&pMode=3&loc=1">
+              buy now
+            </a>
+          </Button>
+        </div>
       </div>
     </div>
   );

@@ -1,6 +1,7 @@
 import Header from "@/components/Header"
 import IntroCustom from "@/components/IntroCustom"
 import Introduction from "@/components/Introduction"
+import Feedback from "@/components/feedback/Feedback"
 import Schedule from "@/components/schedule/Schedule"
 
 export default function Component() {
@@ -16,6 +17,9 @@ export default function Component() {
     </div>
     <div>
       <Schedule /> 
+    </div>
+    <div>
+      <Feedback />
     </div>
     </div>
   )
