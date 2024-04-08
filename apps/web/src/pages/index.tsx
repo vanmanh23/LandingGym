@@ -2,6 +2,7 @@ import Header from "@/components/Header"
 import IntroCustom from "@/components/IntroCustom"
 import Introduction from "@/components/Introduction"
 import Feedback from "@/components/feedback/Feedback"
+import ProTrainer from "@/components/index/ProTrainer"
 import Schedule from "@/components/schedule/Schedule"
 
 export default function Component() {
@@ -20,6 +21,9 @@ export default function Component() {
     </div>
     <div>
       <Feedback />
+    </div>
+    <div>
+      <ProTrainer />
     </div>
     </div>
   )
