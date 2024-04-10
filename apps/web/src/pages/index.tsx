@@ -1,7 +1,9 @@
 import Header from "@/components/Header"
 import IntroCustom from "@/components/IntroCustom"
 import Introduction from "@/components/Introduction"
+import ContactUs from "@/components/contact/ContactUs"
 import Feedback from "@/components/feedback/Feedback"
+import GoogleMap from "@/components/index/GoogleMap"
 import ProTrainer from "@/components/index/ProTrainer"
 import Schedule from "@/components/schedule/Schedule"
 
@@ -24,6 +26,12 @@ export default function Component() {
     </div>
     <div>
       <ProTrainer />
+    </div>
+    <div className="mt-10">
+      <GoogleMap />
+    </div>
+    <div>
+      <ContactUs />
     </div>
     </div>
   )
