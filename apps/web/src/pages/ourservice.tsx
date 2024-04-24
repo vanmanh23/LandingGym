@@ -1,25 +1,21 @@
-import React from 'react';
-import { startOfMonth, addWeeks, format, eachWeekOfInterval, addDays } from 'date-fns';
+// import React from 'react';
+// import ourservicesBg from '../assets/images/our-service/bg.jpg';
 
-export default function Component() {
-    const currentDate = new Date();
-    const currentMonth = startOfMonth(currentDate);
-    const weeksOfMonth = eachWeekOfInterval({ start: currentMonth, end: addWeeks(currentMonth, 2) });
-    return (
-        <div>
 
-        {weeksOfMonth.map((week, index) => (
-          <div key={index}>
-            <h3>Week {index + 1}</h3>
-            <ul>
-              {eachWeekOfInterval({ start: week, end: addDays(week, 6) }).map((day) => (
-                Array.from({ length: 7 }).map((_, index) => (
-                  <li key={index}>{format(addDays(day, index), 'dd')}</li>
-                ))
-              ))}
-            </ul>
-          </div>
-        ))}
-      </div>
-    )
-}
+// export default function Component() {
+//     return (
+//       <div>
+//         <div className='relative w-full h-full'>
+//           <div >
+//           <img src={ourservicesBg} alt="our-services-background" className='w-full h-108'/>
+//           </div>
+//           <div className='absolute top-1/2 w-full'>
+//             <h1 className='uppercase text-5xl font-bold text-white flex items-center text-center justify-center'>our services</h1>
+//           </div>
+//         </div>
+//         <div className='w-9/12 m-auto mt-5'>
+//           <p className='text-center font-medium text-xl opacity-65'>Join a local gym in Pooler, Georgia, that understands your needs. So Fit Gym gives you access to high-quality equipment, local personal trainers, and the ability to join fun workout classes!</p>
+//         </div>
+//       </div>
+//     )
+// }

@@ -12,7 +12,7 @@ export default function Component() {
   return (
     <div style={{ backgroundImage: `url(${background})` }}> 
        <div><Header /></div>
-    <div className="w-full relative -top-44">
+    <div className="w-full relative -top-72 md:-top-44">
       <Introduction />
     </div>
     <div>
@@ -30,7 +30,7 @@ export default function Component() {
     <div className="mt-10">
       <GoogleMap />
     </div>
-    <div>
+    <div className="mt-10">
       <ContactUs />
     </div>
     </div>

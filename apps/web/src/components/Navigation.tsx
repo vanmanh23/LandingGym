@@ -24,7 +24,7 @@ export default function Navigation() {
     },
     {
       title: "our services",
-      url: "ourservice",
+      url: "ourservices",
       option: [
         {
           title: "nutritionist services",

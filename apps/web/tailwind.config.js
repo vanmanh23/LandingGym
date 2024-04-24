@@ -20,8 +20,10 @@ export default {
         '1': '1px',
       },
       height: {
-        '87': '348px'
+        '87': '348px',
+        '108': '432px',
       }
+      
     },
   },
   plugins: [],
