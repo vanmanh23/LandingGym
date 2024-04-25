@@ -1,13 +1,9 @@
 import { Outlet } from "react-router-dom";
-
 import ourservicesBg from "../../assets/images/our-service/bg.jpg";
+
 export default function Layout() {
   return (
     <div>
-      {/* <div className="bg-transparent">
-        <Navigation />
-      </div> */}
-
       <div>
         <div className="relative w-full h-full">
           <div>
@@ -23,7 +19,7 @@ export default function Layout() {
             </h1>
           </div>
         </div>
-        <div className="w-9/12 m-auto mt-5 mb-10">
+        <div className="w-9/12 m-auto mt-5 mb-20">
           <p className="text-center font-medium text-xl opacity-65">
             Join a local gym in Pooler, Georgia, that understands your needs. So
             Fit Gym gives you access to high-quality equipment, local personal
@@ -33,11 +29,8 @@ export default function Layout() {
         <div>
           <Outlet></Outlet>
         </div>
+ 
       </div>
-
-      {/* <div className="w-full mt-10">
-        <Footer />
-      </div> */}
     </div>
   );
 }
