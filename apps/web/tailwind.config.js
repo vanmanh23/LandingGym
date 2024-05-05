@@ -22,8 +22,10 @@ export default {
       height: {
         '87': '348px',
         '108': '432px',
+      },
+      backgroundImage: {
+        'parallax': 'url("/apps/web/src/assets/images/background.png")',
       }
-      
     },
   },
   plugins: [],

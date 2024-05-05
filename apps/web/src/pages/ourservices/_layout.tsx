@@ -29,7 +29,6 @@ export default function Layout() {
         <div>
           <Outlet></Outlet>
         </div>
- 
       </div>
     </div>
   );

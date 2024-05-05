@@ -15,7 +15,7 @@ export default function Feedback() {
     };
   return (
     <div className="feedback-carousel w-5/6 m-auto bg-white flex flex-col justify-center text-center  mt-20">
-    <div className="feedback  mt-10 transition duration-500">
+    <div className="feedback w-4/6 m-auto mt-10 transition duration-500">
       <FeedbackCard name={feedbacks[currentIndex].name} feedback={feedbacks[currentIndex].feedback}/>
     </div>
     <div className="flex gap-3 justify-center mt-7">
