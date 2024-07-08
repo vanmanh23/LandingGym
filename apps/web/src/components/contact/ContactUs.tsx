@@ -4,7 +4,7 @@ import { Form } from "react-router-dom";
 import { zodResolver } from '@hookform/resolvers/zod';
 import { Button } from "../ui/button";
 import { useForm } from "react-hook-form"
-import React, { useState } from "react";
+import { useState } from "react";
 
 export default function ContactUs() {
     const [focus, setFocus] = useState({

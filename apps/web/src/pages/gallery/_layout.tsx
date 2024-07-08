@@ -1,4 +1,3 @@
-import React from 'react'
 import gallerybg from '../../assets/images/Gallery-bg.jpg'
 import { Outlet } from 'react-router-dom'
 

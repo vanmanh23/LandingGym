@@ -1,4 +1,3 @@
-import React from 'react'
 import BenefitCard from './_components/BenefitCard'
 import workout from '../../assets/images/our-service/equipment.png'
 import betterservice from '../../assets/images/our-service/betterservice.png'

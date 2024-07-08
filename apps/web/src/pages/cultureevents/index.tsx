@@ -1,5 +1,4 @@
 import BackgroundHeader from "@/components/BackgroundHeader";
-import React from "react";
 import culture from "../../assets/images/culturebg.jpg";
 import explore from "@/assets/images/explore.jpeg";
 import Flyer from "./_components/Flyer";
@@ -181,7 +180,7 @@ export default function index() {
         </div>
       <div className="w-10/12 m-auto mt-7">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {FlyerData.map((item, index) => (
+          {FlyerData.map((_, index) => (
             <div
               className={`w-full`}
             >

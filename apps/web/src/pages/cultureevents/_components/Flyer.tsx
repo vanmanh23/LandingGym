@@ -1,6 +1,4 @@
 import { Button } from '@/components/ui/button'
-import React from 'react'
-// import explore from '@/assets/images/explore.jpeg'
 
 interface FlyerProps {
     image: string

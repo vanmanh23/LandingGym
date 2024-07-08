@@ -1,4 +1,3 @@
-import React from "react";
 import GalleryDialog from "./_components/GalleryDialog";
 import Feedback from "@/components/feedback/Feedback";
 import { GalleryDatas } from "@/data/gallery_data";
