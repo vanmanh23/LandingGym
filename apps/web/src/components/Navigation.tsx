@@ -2,8 +2,9 @@ import { useState } from "react";
 import { Menubar, MenubarContent, MenubarItem, MenubarMenu, MenubarShortcut, MenubarTrigger } from "./ui/menubar";
 import { AlignJustify, ChevronDown, ChevronRight } from "lucide-react";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "./ui/accordion";
-import { Link } from '../router';
+// import { Link } from '../router';
 import { MenuElenents } from '@/data/menu_elements'
+import { Link } from "react-router-dom";
 
 export default function Navigation() {
   const logo =

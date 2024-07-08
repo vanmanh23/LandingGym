@@ -13,7 +13,7 @@ export default function Component() {
       </div>
       <div className="w-10/12 m-auto mt-7">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-          {gallerydatas.map((item, index) => (
+          {gallerydatas.map((_, index) => (
             <div
               className={`w-full`}
             >
