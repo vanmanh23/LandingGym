@@ -10,7 +10,8 @@ export default function _layout() {
           <img
             src={gallerybg}
             alt="our-services-background"
-            className="w-full h-108 bg-fixed bg-center bg-no-repeat bg-cover"
+            className="w-full h-[500px] bg-fixed bg-center bg-no-repeat bg-cover"
+              style={{ objectFit: "cover" }}
           />
         </div>
         <div className="absolute top-1/2 w-full">

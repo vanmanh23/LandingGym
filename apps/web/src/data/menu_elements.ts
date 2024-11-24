@@ -48,26 +48,6 @@ export const MenuElenents = [
       ],
     },
     {
-      title: "class schedule",
-      url: "schedule",
-      option: [
-        {
-          title: "class schedule",
-          url: "#",
-        },
-      ],
-    },
-    {
-      title: "join our gym",
-      url: "joinOurGym",
-      option: [
-        {
-          title: "join our gym",
-          url: "#",
-        },
-      ],
-    },
-    {
       title: "contact us",
       url: "contactus",
       option: [

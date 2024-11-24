@@ -10,7 +10,8 @@ export default function Layout() {
             <img
               src={ourservicesBg}
               alt="our-services-background"
-              className="w-full h-108"
+              className="w-full h-[500px] "
+              style={{ objectFit: "cover" }}
             />
           </div>
           <div className="absolute top-1/2 w-full">

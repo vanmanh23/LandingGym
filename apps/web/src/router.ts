@@ -7,7 +7,6 @@ export type Path =
   | `/`
   | `/cultureevents`
   | `/gallery`
-  | `/ourservice`
   | `/ourservices`
   | `/schedule`
 
