@@ -26,31 +26,55 @@ export const MenuElenents = [
     {
       title: "gallery",
       url: "gallery",
-      option: [],
+      option: [
+        {
+          title: "our gallery",
+          url: "#",
+        },
+      ],
     },
     {
       title: "Culture & Events",
       url: "cultureevents",
-      option: [],
+      option: [
+        {
+          title: "upcoming events",
+          url: "#",
+        },
+        {
+          title: "past events",
+          url: "#",
+        },
+      ],
     },
     {
       title: "class schedule",
       url: "schedule",
-      option: [],
+      option: [
+        {
+          title: "class schedule",
+          url: "#",
+        },
+      ],
     },
     {
       title: "join our gym",
       url: "joinOurGym",
-      option: [],
+      option: [
+        {
+          title: "join our gym",
+          url: "#",
+        },
+      ],
     },
     {
       title: "contact us",
       url: "contactus",
-      option: [],
-    },
-    {
-      title: "Únete ahora",
-      url: "#",
-      option: [],
+      option: [
+        {
+          title: "contact us",
+          url: "#",
+        },
+      ],
     },
   ];
